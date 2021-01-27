@@ -57,8 +57,8 @@ async function getUserData(user) {
 
 async function main() {
   // high level dao info
-	console.log(`Supply ${await fmt(dao.totalSupply())}`)
-	console.log(`Total bonded ${await fmt(dao.totalBonded())}`)
+  console.log(`Supply ${await fmt(dao.totalSupply())}`)
+  console.log(`Total bonded ${await fmt(dao.totalBonded())}`)
   console.log(`Total staged ${await fmt(dao.totalStaged())}`)
   console.log(`Total debt ${await fmt(dao.totalDebt())}`)
   console.log(`Total redeemable ${await fmt(dao.totalRedeemable())}`)
